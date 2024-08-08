@@ -8,8 +8,12 @@ export default defineConfig({
 		starlight({
 			title: {
 				en: 'Automatic.CSS Documentation',
-				'de': 'Automatic.CSS Dokumenation',
+				de: 'Automatic.CSS Dokumenation',
 			},
+			customCss: [
+				// Relative path to your custom CSS file
+				'https://automaticcss.com/wp-content/uploads/automatic-css/automatic.css',
+			],			
 			defaultLocale: 'root',
 			logo: {
 				dark: './src/assets/acss-logo-white.svg',
