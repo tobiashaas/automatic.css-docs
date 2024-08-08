@@ -8,7 +8,7 @@ export default defineConfig({
 		starlight({
 			title: {
 				en: 'Automatic.CSS Documentation',
-				de: 'Automatic.CSS Dokumenation',
+				de: 'Automatic.CSS Dokumentation',
 			},
 			customCss: [
 				// Relative path to your custom CSS file
