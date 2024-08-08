@@ -9,7 +9,8 @@ export default defineConfig({
 			title: {
 				en: 'Automatic.CSS Documentation',
 				'de': 'Automatic.CSS Dokumenation',
-			  },
+			},
+			defaultLocale: 'root',
 			logo: {
 				dark: './src/assets/acss-logo-white.svg',
 				light: './src/assets/automatic-css-logo-black.svg',				
