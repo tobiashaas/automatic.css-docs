@@ -6,7 +6,10 @@ export default defineConfig({
 	site: 'https://docs.tobiashaas.info',
 	integrations: [
 		starlight({
-			title: 'Automatic.CSS Documentation',
+			title: {
+				en: 'Automatic.CSS Documentation',
+				'de': 'Automatic.CSS Dokumenation',
+			},
 			defaultLocale: 'root',
 			logo: {
 				dark: './src/assets/acss-logo-white.svg',
