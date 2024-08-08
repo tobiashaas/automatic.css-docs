@@ -6,10 +6,7 @@ export default defineConfig({
 	site: 'https://docs.tobiashaas.info',
 	integrations: [
 		starlight({
-			title: {
-				en: 'Automatic.CSS Documentation',
-				'de': 'Automatic.CSS Dokumenation',
-			},
+			title: 'Automatic.CSS Documentation',
 			defaultLocale: 'root',
 			logo: {
 				dark: './src/assets/acss-logo-white.svg',
@@ -17,7 +14,7 @@ export default defineConfig({
 				replacesTitle: true,
 			},
 			// Set English as the default language for this site.
-			defaultLocale: 'en',
+			defaultLocale: 'root',
 			locales: {
 				root: {
 				  label: 'English',
