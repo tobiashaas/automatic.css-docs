@@ -3,9 +3,31 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://docs.tobiashaas.info',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: {
+				en: 'Automatic.CSS Documentation',
+				'de': 'Automatic.CSS Dokumenation',
+			  },
+			logo: {
+				dark: './src/assets/acss-logo-white.svg',
+				light: './src/assets/automatic-css-logo-black.svg',				
+				replacesTitle: true,
+			},
+			// Set English as the default language for this site.
+			defaultLocale: 'en',
+			locales: {
+				root: {
+				  label: 'English',
+				  lang: 'en', // lang is required for root locales
+				},
+				
+				'de': {
+					label: 'German',
+					lang: 'de',
+				},
+			},
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
