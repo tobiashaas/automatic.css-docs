@@ -38,7 +38,17 @@ export default defineConfig({
 			social: {
 				facebook: 'https://www.facebook.com/automaticcss',
 				youtube: 'https://www.youtube.com/@AutomaticCSS',
-				'x.com': 'https://x.com/thekevingeary',
+				codeberg: 'https://codeberg.org/knut/examples',
+				discord: 'https://astro.build/chat',
+				github: 'https://github.com/withastro/starlight',
+				gitlab: 'https://gitlab.com/delucis',
+				linkedin: 'https://www.linkedin.com/company/astroinc',
+				mastodon: 'https://m.webtoo.ls/@astro',
+				threads: 'https://www.threads.net/@nmoodev',
+				twitch: 'https://www.twitch.tv/bholmesdev',
+				twitter: 'https://twitter.com/astrodotbuild',
+				'x.com': 'https://x.com/astrodotbuild',
+				youtube: 'https://youtube.com/@astrodotbuild',
 			},
 			sidebar: [
 				{
