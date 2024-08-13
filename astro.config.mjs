@@ -11,7 +11,7 @@ export default defineConfig({
 				de: 'Automatic.CSS Dokumentation',
 			},	
 			defaultLocale: 'root',
-			favicon: './src/acss-favicon.png',
+			favicon: './public/acss-favicon.png',
 			logo: {
 				dark: './src/assets/acss-logo-white.svg',
 				light: './src/assets/automatic-css-logo-dark.svg',				
@@ -44,28 +44,27 @@ export default defineConfig({
 				{
 					label: 'Getting Started',
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{ label: 'How to install, setup and start using Automatic.css.', slug: 'guides/getting-started' },
 					],
 				},
 				{
 					label: 'Builder Configuration',
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{ label: 'Setup ACSS to work seamlessly with your preferred builder.', slug: 'guides/builder-configuration' },
 					],
 				},		
 				{
 					label: 'Fundamentals',
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{ label: 'Learn ACSS basics and best practices for best results.', slug: 'guides/fundamentals' },
 					],
 				},								
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+					label: 'Utilities',
+					items: [
+						{ label: 'Details and instructions for specific utilities & features in Automatic.css.', slug: 'guides/utilities' },
+					],
+				},	
 			],
 		}),
 	],
