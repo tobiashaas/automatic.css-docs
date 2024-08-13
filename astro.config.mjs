@@ -16,8 +16,8 @@ export default defineConfig({
 			],			
 			defaultLocale: 'root',
 			logo: {
-				dark: '/src/assets/acss-logo-white.svg',
-				light: '/src/assets/automatic-css-logo-black.svg',				
+				dark: './src/assets/acss-logo-white.svg',
+				light: './src/assets/automatic-css-logo-black.svg',				
 				replacesTitle: true,
 			},
 			// Set English as the default language for this site.
