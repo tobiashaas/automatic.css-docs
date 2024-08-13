@@ -32,6 +32,7 @@ export default defineConfig({
 			social: {
 				facebook: 'https://www.facebook.com/automaticcss',
 				twitter: 'https://x.com/thekevingeary',
+				x: 'https://x.com/thekevingeary',
 			},
 			sidebar: [
 				{
