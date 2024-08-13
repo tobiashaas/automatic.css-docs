@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: How to install, setup and start using Automatic.css..
+description: How to install, setup and start using Automatic.css.
 ---
 
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.

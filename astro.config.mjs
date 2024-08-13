@@ -44,7 +44,7 @@ export default defineConfig({
 				{
 					label: 'Getting Started',
 					items: [
-						{ label: 'How to install, setup and start using Automatic.css.', slug: 'guides/getting-started' },
+						{ label: 'How to install, setup and start using Automatic.css', slug: 'guides/getting-started' },
 					],
 				},
 				{
@@ -62,7 +62,9 @@ export default defineConfig({
 				{
 					label: 'Utilities',
 					items: [
-						{ label: 'Details and instructions for specific utilities & features in Automatic.css.', slug: 'guides/utilities' },
+						{ label: 'Accessibility features, clickable-parent, focus styles, and more.', slug: 'guides/accessibility' },
+						{ label: 'Hooks, Mixins, Functions, and other tools for advanced users.', slug: 'guides/advanced' },
+						{ label: 'Utilities for styling element and container backgrounds.', slug: 'guides/backgrounds' },
 					],
 				},	
 			],
