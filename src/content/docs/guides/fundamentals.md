@@ -1,6 +1,6 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: Fundamentals
+description: Learn ACSS basics and best practices for best results.
 ---
 
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.

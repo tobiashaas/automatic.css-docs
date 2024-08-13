@@ -38,17 +38,30 @@ export default defineConfig({
 			social: {
 				facebook: 'https://www.facebook.com/automaticcss',
 				youtube: 'https://www.youtube.com/@AutomaticCSS',
-				twitter: 'https://twitter.com/astrodotbuild',
-				'x.com': 'https://x.com/astrodotbuild',
+				'x.com': 'https://x.com/thekevingeary',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Getting Started',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'How to install, setup and start using Automatic.css.', slug: 'guides/getting-started' },
 					],
 				},
+				{
+					label: 'Builder Configuration',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Setup ACSS to work seamlessly with your preferred builder.', slug: 'guides/builder-configuration' },
+					],
+				},		
+				{
+					label: 'Fundamentals',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Learn ACSS basics and best practices for best results.', slug: 'guides/fundamentals' },
+					],
+				},								
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
