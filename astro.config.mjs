@@ -44,13 +44,15 @@ export default defineConfig({
 				{
 					label: 'Getting Started',
 					items: [
-						{ label: 'How to install, setup and start using Automatic.css', slug: 'guides/getting-started' },
+						{ label: 'Palette Setup', slug: 'guides/palette-setup' },
+						{ label: 'Fluid Text', slug: 'guides/fluid-text' },		
+						{ label: 'Fluid Headings', slug: 'guides/fluid-headings' },										
 					],
 				},
 				{
 					label: 'Builder Configuration',
 					items: [
-						{ label: 'Setup ACSS to work seamlessly with your preferred builder.', slug: 'guides/builder-configuration' },
+						{ label: 'Setup ACSS to work seamlessly with your preferred builder.', slug: 'guides/bricks-builder' },
 					],
 				},		
 				{
@@ -62,9 +64,9 @@ export default defineConfig({
 				{
 					label: 'Utilities',
 					items: [
-						{ label: 'Accessibility features, clickable-parent, focus styles, and more.', slug: 'guides/accessibility' },
-						{ label: 'Hooks, Mixins, Functions, and other tools for advanced users.', slug: 'guides/advanced' },
-						{ label: 'Utilities for styling element and container backgrounds.', slug: 'guides/backgrounds' },
+						{ label: 'Accessibility', slug: 'guides/accessibility' },
+						{ label: 'Advanced', slug: 'guides/advanced' },
+						{ label: 'Backgrounds', slug: 'guides/backgrounds' },
 					],
 				},	
 			],
