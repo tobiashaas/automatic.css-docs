@@ -11,11 +11,17 @@ export default defineConfig({
 				de: 'Automatic.CSS Dokumentation',
 			},	
 			defaultLocale: 'root',
+			favicon: './src/acss-favicon.png',
 			logo: {
 				dark: './src/assets/acss-logo-white.svg',
 				light: './src/assets/automatic-css-logo-dark.svg',				
 				replacesTitle: true,
 			},
+			customCss: [
+				// Relative path to your custom CSS file
+				['./src/custom-styles.css', '@fontsource/outfit'],
+				'./src/styles/automatic.css',
+			  ],
 			// Set English as the default language for this site.
 			defaultLocale: 'root',
 			locales: {
@@ -32,7 +38,7 @@ export default defineConfig({
 			social: {
 				facebook: 'https://www.facebook.com/automaticcss',
 				youtube: 'https://www.youtube.com/@AutomaticCSS',
-				twitter: 'https://x.com/thekevingeary',
+				'x.com': 'https://x.com/thekevingeary',
 			},
 			sidebar: [
 				{
