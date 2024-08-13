@@ -8,7 +8,7 @@ description: Automatic.css’s typography system controls the font size of headi
 ## Fluid Heading Setup
 
 To access settings for your headings, navigate to Typography > Headings in the dashboard.
-![ACSS Base Heading Settings](../../assets/documentation/fluid-headings/fluid-heading-setup.png)
+![ACSS Base Heading Settings](../../../documentation/fluid-headings/fluid-heading-setup.png)
 
 - Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
 

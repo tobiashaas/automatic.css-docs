@@ -8,7 +8,7 @@ description: Automatic.css’s typography system controls the font size of text 
 ## Root Font Size
 
 The first setting in the Typography tab is for Root Font Size. It’s essential to set the root font size as a percentage for maximum accessibility.
-![ACSS Base Heading Settings](../../assets/documentation/fluid-headings/fluid-heading-setup.png)
+![ACSS Base Heading Settings](../../../documentation/fluid-headings/fluid-heading-setup.png)
 
 - Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
 
