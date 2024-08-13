@@ -47,7 +47,6 @@ export default defineConfig({
 				threads: 'https://www.threads.net/@nmoodev',
 				twitch: 'https://www.twitch.tv/bholmesdev',
 				twitter: 'https://twitter.com/astrodotbuild',
-				'x.com': 'https://x.com/astrodotbuild',
 				youtube: 'https://youtube.com/@astrodotbuild',
 			},
 			sidebar: [
