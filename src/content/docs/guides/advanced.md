@@ -13,6 +13,6 @@ While there are dozens of classes to choose from, they all follow the same conve
 
 If you want to set the background color to one of the main ACSS colors, use:
 
-```CSS
+```
 .bg--[color]
 ```

@@ -15,3 +15,11 @@ The first setting in the Typography tab is for Root Font Size. It’s essential 
 To start, set a base font size for your headings.
 
 The “base” font size serves two purposes:
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l);
+  return true;
+};
+```
