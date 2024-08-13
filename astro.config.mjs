@@ -19,7 +19,7 @@ export default defineConfig({
 			},
 			customCss: [
 				// Relative path to your custom CSS file
-				['./src/custom-styles.css', '@fontsource/outfit'],
+				['./src/styles/custom.css', '@fontsource/outfit'],
 				'./src/styles/automatic.css',
 			  ],
 			// Set English as the default language for this site.
@@ -47,6 +47,7 @@ export default defineConfig({
 				threads: 'https://www.threads.net/@nmoodev',
 				twitch: 'https://www.twitch.tv/bholmesdev',
 				twitter: 'https://twitter.com/astrodotbuild',
+				'x.com': 'https://x.com/astrodotbuild',
 				youtube: 'https://youtube.com/@astrodotbuild',
 			},
 			sidebar: [
