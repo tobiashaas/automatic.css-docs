@@ -11,7 +11,7 @@ export default defineConfig({
 				de: 'Automatic.CSS Dokumentation',
 			},	
 			defaultLocale: 'root',
-			favicon: '/public/acss-favicon.png',
+			favicon: './public/acss-favicon.png',
 			logo: {
 				dark: './src/assets/acss-logo-white.svg',
 				light: './src/assets/automatic-css-logo-dark.svg',				
